@@ -6,6 +6,7 @@ on:
     - cron: '0 13 30 * *'
 jobs:
   test:
+    environment: Preview
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:

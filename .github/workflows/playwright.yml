@@ -3,7 +3,7 @@ on:
   push:
     branches: [ test ]
   schedule:
-    - cron: '9 14 * * *'
+    - cron: '12 14 * * *'
 jobs:
   test:
     environment: Preview
